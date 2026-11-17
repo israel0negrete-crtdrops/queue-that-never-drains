@@ -1,0 +1,65 @@
+[
+ {
+  "prefetch": 1,
+  "consumidores": 1,
+  "guardados": 10000,
+  "segundos": 13.84,
+  "por_segundo": 722.5
+ },
+ {
+  "prefetch": 1,
+  "consumidores": 2,
+  "guardados": 10000,
+  "segundos": 13.323,
+  "por_segundo": 750.6
+ },
+ {
+  "prefetch": 1,
+  "consumidores": 4,
+  "guardados": 10000,
+  "segundos": 11.153,
+  "por_segundo": 896.6
+ },
+ {
+  "prefetch": 10,
+  "consumidores": 1,
+  "guardados": 10000,
+  "segundos": 9.129,
+  "por_segundo": 1095.4
+ },
+ {
+  "prefetch": 10,
+  "consumidores": 2,
+  "guardados": 10000,
+  "segundos": 9.99,
+  "por_segundo": 1001.0
+ },
+ {
+  "prefetch": 10,
+  "consumidores": 4,
+  "guardados": 10000,
+  "segundos": 10.806,
+  "por_segundo": 925.4
+ },
+ {
+  "prefetch": 100,
+  "consumidores": 1,
+  "guardados": 10000,
+  "segundos": 9.121,
+  "por_segundo": 1096.4
+ },
+ {
+  "prefetch": 100,
+  "consumidores": 2,
+  "guardados": 10000,
+  "segundos": 9.06,
+  "por_segundo": 1103.8
+ },
+ {
+  "prefetch": 100,
+  "consumidores": 4,
+  "guardados": 10000,
+  "segundos": 10.874,
+  "por_segundo": 919.6
+ }
+]

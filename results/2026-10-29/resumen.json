@@ -1,0 +1,217 @@
+{
+ "capacidad": [
+  {
+   "prefetch": 1,
+   "consumidores": 1,
+   "guardados": 10000,
+   "segundos": 13.84,
+   "por_segundo": 722.5
+  },
+  {
+   "prefetch": 1,
+   "consumidores": 2,
+   "guardados": 10000,
+   "segundos": 13.323,
+   "por_segundo": 750.6
+  },
+  {
+   "prefetch": 1,
+   "consumidores": 4,
+   "guardados": 10000,
+   "segundos": 11.153,
+   "por_segundo": 896.6
+  },
+  {
+   "prefetch": 10,
+   "consumidores": 1,
+   "guardados": 10000,
+   "segundos": 9.129,
+   "por_segundo": 1095.4
+  },
+  {
+   "prefetch": 10,
+   "consumidores": 2,
+   "guardados": 10000,
+   "segundos": 9.99,
+   "por_segundo": 1001.0
+  },
+  {
+   "prefetch": 10,
+   "consumidores": 4,
+   "guardados": 10000,
+   "segundos": 10.806,
+   "por_segundo": 925.4
+  },
+  {
+   "prefetch": 100,
+   "consumidores": 1,
+   "guardados": 10000,
+   "segundos": 9.121,
+   "por_segundo": 1096.4
+  },
+  {
+   "prefetch": 100,
+   "consumidores": 2,
+   "guardados": 10000,
+   "segundos": 9.06,
+   "por_segundo": 1103.8
+  },
+  {
+   "prefetch": 100,
+   "consumidores": 4,
+   "guardados": 10000,
+   "segundos": 10.874,
+   "por_segundo": 919.6
+  }
+ ],
+ "capacidad_base": 1095.4,
+ "tasa": [
+  {
+   "factor": 0.5,
+   "llegan_por_s": 547.7,
+   "salen_por_s": 547.7,
+   "atraso_crece_por_s": 0.0,
+   "atraso_max": 4,
+   "edad_max_al_final_s": 0.01,
+   "edad_mediana_primer_minuto_ms": 2,
+   "vacio_s_despues_del_productor": 1
+  },
+  {
+   "factor": 0.8,
+   "llegan_por_s": 876.3,
+   "salen_por_s": 876.3,
+   "atraso_crece_por_s": 0.0,
+   "atraso_max": 4,
+   "edad_max_al_final_s": 0.01,
+   "edad_mediana_primer_minuto_ms": 3,
+   "vacio_s_despues_del_productor": 1
+  },
+  {
+   "factor": 0.95,
+   "llegan_por_s": 1040.6,
+   "salen_por_s": 1040.6,
+   "atraso_crece_por_s": 0.0,
+   "atraso_max": 198,
+   "edad_max_al_final_s": 0.01,
+   "edad_mediana_primer_minuto_ms": 3,
+   "vacio_s_despues_del_productor": 1
+  },
+  {
+   "factor": 1.05,
+   "llegan_por_s": 1150.2,
+   "salen_por_s": 1121.9,
+   "atraso_crece_por_s": 27.9,
+   "atraso_max": 3075,
+   "edad_max_al_final_s": 2.75,
+   "edad_mediana_primer_minuto_ms": 911,
+   "vacio_s_despues_del_productor": 3
+  },
+  {
+   "factor": 1.2,
+   "llegan_por_s": 1314.5,
+   "salen_por_s": 1103.3,
+   "atraso_crece_por_s": 210.8,
+   "atraso_max": 23846,
+   "edad_max_al_final_s": 18.28,
+   "edad_mediana_primer_minuto_ms": 4572,
+   "vacio_s_despues_del_productor": 21
+  }
+ ],
+ "caida": [
+  {
+   "factor": 0.5,
+   "llegan_por_s": 547.7,
+   "caida_s": 60,
+   "atraso_al_volver": 32987,
+   "salen_por_s_vaciando": 1133.9,
+   "edad_max_s": 60.3,
+   "recuperacion_s": 57,
+   "recuperacion_prevista_s": 60.0,
+   "umbral_al_dia_ms": 1000
+  },
+  {
+   "factor": 0.7,
+   "llegan_por_s": 766.8,
+   "caida_s": 60,
+   "atraso_al_volver": 45835,
+   "salen_por_s_vaciando": 1113.3,
+   "edad_max_s": 60.4,
+   "recuperacion_s": 134,
+   "recuperacion_prevista_s": 140.0,
+   "umbral_al_dia_ms": 1000
+  },
+  {
+   "factor": 0.9,
+   "llegan_por_s": 985.9,
+   "caida_s": 60,
+   "atraso_al_volver": 470751,
+   "salen_por_s_vaciando": 974.0,
+   "edad_max_s": 482.0,
+   "recuperacion_s": null,
+   "recuperacion_prevista_s": 540.0,
+   "umbral_al_dia_ms": 52464
+  }
+ ],
+ "veneno": [
+  {
+   "politica": "dlq",
+   "resultados": {
+    "ok": 32860,
+    "dlq-invalido": 1,
+    "dlq-transitoria": 2
+   },
+   "reentregas_del_invalido_por_s": 0,
+   "listos_al_final": 0,
+   "listos_tras_detener": 0,
+   "dlq": 3,
+   "edad_mediana_ms": 2
+  },
+  {
+   "politica": "reintentos",
+   "resultados": {
+    "ok": 32862,
+    "dlq-invalido": 1,
+    "a-espera": 4,
+    "dlq-agotado": 1
+   },
+   "reentregas_del_invalido_por_s": 0,
+   "listos_al_final": 0,
+   "listos_tras_detener": 0,
+   "dlq": 2,
+   "edad_mediana_ms": 2
+  },
+  {
+   "politica": "requeue",
+   "resultados": {
+    "ok": 32863,
+    "invalido-reencolado": 233330,
+    "transitoria-reencolada": 7
+   },
+   "reentregas_del_invalido_por_s": 3853.0,
+   "listos_al_final": 0,
+   "listos_tras_detener": 1,
+   "dlq": 0,
+   "edad_mediana_ms": 2
+  }
+ ],
+ "sin_ack": [
+  {
+   "tabla": "idempotente",
+   "caidas": 5,
+   "filas": 32864,
+   "mensajes_distintos": 32864,
+   "filas_de_mas": 0,
+   "reentregados": 22,
+   "detectados_como_duplicado": 5
+  },
+  {
+   "tabla": "ingenua",
+   "caidas": 5,
+   "filas": 32868,
+   "mensajes_distintos": 32863,
+   "filas_de_mas": 5,
+   "reentregados": 21,
+   "detectados_como_duplicado": 0
+  }
+ ]
+}

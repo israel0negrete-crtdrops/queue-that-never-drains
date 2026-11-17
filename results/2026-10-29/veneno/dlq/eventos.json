@@ -1,0 +1,10 @@
+{
+ "inicio_ms": 1793310040989,
+ "fin_productor_ms": 1793310101628,
+ "listos_al_final": 0,
+ "dlq_al_final": 3,
+ "reinicios": 0,
+ "listos_tras_detener": 0,
+ "segundos": 76.6,
+ "especiales": "5477:invalido,10954:transitoria,16431:transitoria5"
+}

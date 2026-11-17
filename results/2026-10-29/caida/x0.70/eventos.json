@@ -1,0 +1,12 @@
+{
+ "inicio_ms": 1793308651340,
+ "caida_ms": 1793308711407,
+ "regreso_ms": 1793308771409,
+ "fin_productor_ms": 1793309041585,
+ "listos_al_final": 27683,
+ "dlq_al_final": 0,
+ "reinicios": 0,
+ "listos_tras_detener": 27688,
+ "segundos": 396.6,
+ "recuperacion_prevista_s": 140.0
+}

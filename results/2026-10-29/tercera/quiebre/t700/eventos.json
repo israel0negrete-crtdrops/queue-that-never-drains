@@ -1,0 +1,10 @@
+{
+ "inicio_ms": 1793320351348,
+ "fin_productor_ms": 1793320951791,
+ "listos_al_final": 216109,
+ "dlq_al_final": 0,
+ "reinicios": 0,
+ "listos_tras_detener": 212997,
+ "segundos": 623.6,
+ "tasa": 700
+}

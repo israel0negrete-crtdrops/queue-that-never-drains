@@ -1,0 +1,12 @@
+{
+ "inicio_ms": 1793310197202,
+ "fin_productor_ms": 1793310257446,
+ "listos_al_final": 0,
+ "dlq_al_final": 0,
+ "reinicios": 5,
+ "listos_tras_detener": 0,
+ "segundos": 75.6,
+ "filas": 32868,
+ "seq_distintos": 32863,
+ "caer": "4381,9858,15335,20812,26289"
+}
